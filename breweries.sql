@@ -141,7 +141,7 @@ GROUP BY sales_rep
 ORDER BY 2 DESC
 LIMIT 1;
 
--- Question 3: Country with the highest profit of the fourth quarter in 2019--
+-- Question 3: Country with the highest profit of the fourth quarter in 2019 --
 SELECT countries, SUM(profit)
 FROM international_breweries
 WHERE months IN ('October', 'November', 'December') AND years = 2019
